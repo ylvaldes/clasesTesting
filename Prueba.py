@@ -5,8 +5,9 @@ from pathlib import Path
     
 new_dir='\.gemaTest'
 home= Path.home()
-if not os.path.exists(home+new_dir):
+if not os.path.exists(home):
         os.makedirs(new_dir)
+print(new_dir)
 
 
 
