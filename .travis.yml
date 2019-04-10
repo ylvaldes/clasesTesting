@@ -3,4 +3,4 @@ python: '3.6'
 
 
 # command to run tests
-script: make test
+script: Prueba.py

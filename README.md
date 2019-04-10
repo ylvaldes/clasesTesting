@@ -1,6 +1,6 @@
 
 [![codecov](https://codecov.io/gh/ylvaldes/clasesTesting/branch/master/graph/badge.svg)](https://codecov.io/gh/ylvaldes/clasesTesting)
-
+[![Coverage Status](https://coveralls.io/repos/github/ylvaldes/clasesTesting/badge.svg)](https://coveralls.io/github/ylvaldes/clasesTesting)
 1.	Inicialmente debemos configurar en el Scrip estas variables 
 #Carpeta Origen de los compilados
 origen='D:\gemadesa\IBM\MAXIMO'
