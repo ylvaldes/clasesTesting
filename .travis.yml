@@ -1,6 +1,13 @@
 language: python
 python: '3.6'
+# Install the codecov pip dependency
+install:
+  - pip install codecov
 
-
-# command to run tests
-script: python Prueba.py
+# Run the unit test
+script:
+  - python Prueba.py
+  
+# Push the results back to codecov
+after_success:
+  - codecov
