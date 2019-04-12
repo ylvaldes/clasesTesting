@@ -3,6 +3,7 @@ python: '3.6'
 # Install the codecov pip dependency
 install:
   - pip install codecov
+  - pip install python-coveralls
 
 # Run the unit test
 script:
@@ -12,3 +13,4 @@ script:
 # Push the results back to codecov
 after_success:
   - codecov
+  - coveralls
