@@ -59,6 +59,7 @@ def crearZip():
 def crearTxtDetalles():
     global new_dir
     global descripcion
+    
     global parisnet
     global lista_clases
     global lista_path
