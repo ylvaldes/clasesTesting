@@ -4,11 +4,18 @@ python: '3.6'
 install:
   - pip install codecov
   - pip install python-coveralls
+#Configurando SonnarCloud
+addons:
+  sonarcloud:
+    organization: "ylvaldes-github"
+    token:
+        secure: "1a52659f161501aea4de6a88d3ac6d4eb36bf475"
 
 # Run the unit test
 script:
   - python Prueba.py
   - coverage run Prueba.py
+  - sonar-scanner
   
 # Push the results back to codecov
 after_success:
