@@ -3,8 +3,6 @@ import datetime
 import os
 import shutil
 import fnmatch 
-import string
-import shutil
 import zipfile
 
 def crearCarpeta(lista):
