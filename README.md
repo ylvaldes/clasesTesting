@@ -5,6 +5,9 @@
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/ylvaldes/clasesTesting.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ylvaldes/clasesTesting/alerts/)
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/ylvaldes/clasesTesting.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ylvaldes/clasesTesting/context:python)
 
+[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=ylvaldes_clasesTesting&metric=alert_status)](https://sonarcloud.io/dashboard?id=ylvaldes_clasesTesting)
+
+
 1.	Inicialmente debemos configurar en el Scrip estas variables 
 #Carpeta Origen de los compilados
 origen='D:\gemadesa\IBM\MAXIMO'
