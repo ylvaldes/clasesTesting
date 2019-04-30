@@ -91,7 +91,9 @@ parisnet=input('Entre el # del Parisnet:')
 descripcion=input('Entre el nombre de la Carpeta!:')
 
 #Leo el fichero con el Nombre de las Clases 
-f= open("Clases.txt")
+# Obtiene la direccion del fiche que se ejecuta 
+# os.path.dirname(os.path.abspath(__file__))
+f= open(os.path.dirname(os.path.abspath(__file__))+"\Clases.txt")
 lista_clases=[linea.rstrip('\n') for linea in f]
 print(chr(27)+"[1;33m"+"Lista de Clases entradas en el *txt")
 print_list(lista_clases)
