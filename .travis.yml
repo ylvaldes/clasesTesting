@@ -21,3 +21,6 @@ script:
 after_success:
   - codecov
   - coveralls
+  
+notifications:
+  slack: developerteamgrupo:IykMDkddgWiZEjsshJAiJeYx
