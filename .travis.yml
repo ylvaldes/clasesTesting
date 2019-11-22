@@ -9,7 +9,7 @@ addons:
   sonarcloud:
     organization: "ylvaldes-github"
     token:
-        secure: "1a52659f161501aea4de6a88d3ac6d4eb36bf475"
+        secure: "8f22f0333e756f7379bcb44718527f65f19ea57f"
 
 # Run the unit test
 script:
